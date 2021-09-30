@@ -24,6 +24,10 @@ body{
     margin-top: 50px;
 }
 
+.card-title, .card-text {
+    text-shadow: 1px 1px 1px black;
+}
+
 .jumbotron{
     background-image: url(img/laptop.jpg);
     background-size: cover;
@@ -101,7 +105,7 @@ body{
 .row .bawah{
     margin: 30px;
     margin-bottom: 70px;
-    width: 50px; 
+    width: 90px;  /* panjang button, jangan diubah */
 }
 
 
@@ -121,7 +125,7 @@ body{
     }
 
     .card-title, .card-text {
-        
+        text-shadow: 1px 1px 1px black;
         font-size: 32px;
     }
 
